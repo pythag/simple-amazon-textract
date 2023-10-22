@@ -3,11 +3,11 @@ A docker container that OCRs 1 or more images into a regular text file using Ama
 
 ## TLDR;
 Usage:
-0. Install docker & docker-compose (on Debian apt install docker-compose)
-1. Make sure your AWS credentials and config are correctly setup in ~/.aws/
-2. Place the images you want to convert in the images directory (supported types: .jpg, .jpeg, .png)
-3. Run docker-compose up
-4. Grab the result from images/result.txt
+1. Install docker & docker-compose (on Debian apt install docker-compose)
+2. Make sure your AWS credentials and config are correctly setup in ~/.aws/
+3. Place the images you want to convert in the images directory (supported types: .jpg, .jpeg, .png)
+4. Run docker-compose up
+5. Grab the result from images/result.txt
 
 ## Intro
 This container was bourne of of frustration from trying to find a simple yet accurate command line driven OCR.
