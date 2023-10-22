@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  python-environment:
+    container_name: SimpleTextract
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    volumes:
+      - $HOME/.aws:/root/.aws/:ro
+      - ./images:/images/
